@@ -132,9 +132,6 @@ et en écoutant cette socket. Remarquer qu&rsquo;on n&rsquo;accepte que deux jou
 
 ## *Ready Player One*
 
-Utiliser `git` pour télécharger le fichier du TP sur `https://classroom.github.com/a/PzY7PX0C`.
-**Attention**, bien penser à créer une branche de travail pour rendre votre travail correctement.
-Vous trouverez un dossier déjà préparé dans lequel on compile avec `dune` (comme pour le devoir maison).
 Il y a un fichier `server.ml` dans lequel est écrit le code qu&rsquo;on vient de voir. Pour compiler: `dune build`
 Si tout se passe bien, vous pouvez lancer l&rsquo;exécutable qui s’est créé dans le répertoire `_build` qui affiche le message *Attente des joueurs..*.
 C&rsquo;est le moment de lancer les joueurs. Ouvrir deux nouveaux terminaux, et lancer dans chaque la commande `netcat localhost 3003`.
