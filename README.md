@@ -189,8 +189,7 @@ Avant tout, envoyer aux joueurs (seuls les gagnants des questions précédente
 La première étape est de récupérer uniquement le premier joueur qui a répondu,
 peu importe sa réponse. Utiliser pour cela la fonction `Lwt.choose` pour écrire
 la fonction `filter_Fastest : player list -> player list Lwt.t`. Faites très
-attention aux types de ces fonctions ! Note : vous ne pouvez pas réutiliser la
-fonction `get_answer`. Pourquoi ?
+attention aux types de ces fonctions !
 
 
 ### *Destination finale*
@@ -200,7 +199,7 @@ L&rsquo;étape précédente n&rsquo;était qu&rsquo;un échauffement; la vraie
 Utiliser pour cela la fonction `Lwt_nchoose_split` qui sépare les joueurs ayant répondu des autres.
 
 
-## *bo-bo-bonus*
+## *TODO !*
 
 Pour améliorer le jeu:
 
